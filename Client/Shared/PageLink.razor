@@ -1,0 +1,24 @@
+﻿<select @onselectionchange="">
+        @for (int index = 0; index < Pages.Count; index++)
+        {
+            <option>
+                @FixLinkTextFormat(Pages[index])
+            </option>
+        }
+    </select>
+
+@code {
+    [Parameter] public string Page { get; set; } = "";
+    [Parameter] public List<string> Pages { get; set; }
+
+    private string FixLinkTextFormat(string page)
+    {
+        string newString = page.Replace('/', ' ');
+        return newString.Trim();
+    }
+
+    private void NavSelection()
+    {
+        
+    }
+}

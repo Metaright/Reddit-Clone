@@ -1,0 +1,12 @@
+C:\Users\matthew_crawford\source\repos\RedditClone\RedditClone\Shared\bin\Debug\net6.0\RedditClone.Shared.deps.json
+C:\Users\matthew_crawford\source\repos\RedditClone\RedditClone\Shared\bin\Debug\net6.0\RedditClone.Shared.dll
+C:\Users\matthew_crawford\source\repos\RedditClone\RedditClone\Shared\bin\Debug\net6.0\ref\RedditClone.Shared.dll
+C:\Users\matthew_crawford\source\repos\RedditClone\RedditClone\Shared\bin\Debug\net6.0\RedditClone.Shared.pdb
+C:\Users\matthew_crawford\source\repos\RedditClone\RedditClone\Shared\obj\Debug\net6.0\RedditClone.Shared.csproj.AssemblyReference.cache
+C:\Users\matthew_crawford\source\repos\RedditClone\RedditClone\Shared\obj\Debug\net6.0\RedditClone.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matthew_crawford\source\repos\RedditClone\RedditClone\Shared\obj\Debug\net6.0\RedditClone.Shared.AssemblyInfoInputs.cache
+C:\Users\matthew_crawford\source\repos\RedditClone\RedditClone\Shared\obj\Debug\net6.0\RedditClone.Shared.AssemblyInfo.cs
+C:\Users\matthew_crawford\source\repos\RedditClone\RedditClone\Shared\obj\Debug\net6.0\RedditClone.Shared.csproj.CoreCompileInputs.cache
+C:\Users\matthew_crawford\source\repos\RedditClone\RedditClone\Shared\obj\Debug\net6.0\RedditClone.Shared.dll
+C:\Users\matthew_crawford\source\repos\RedditClone\RedditClone\Shared\obj\Debug\net6.0\ref\RedditClone.Shared.dll
+C:\Users\matthew_crawford\source\repos\RedditClone\RedditClone\Shared\obj\Debug\net6.0\RedditClone.Shared.pdb
