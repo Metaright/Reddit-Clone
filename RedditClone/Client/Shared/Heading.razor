@@ -1,24 +1,52 @@
-﻿<div id="logo">
-    <a href="~/index.html"> <img src="images/logo.png" /> </a>
-</div>
-<div id="navigation">
-    <select @onselectionchange="">
-        @for (int index = 0; index < Pages.Count; index++)
-        {
-            <option>
-                @FixLinkTextFormat(Pages[index])
-            </option>
-        }
-    </select>
-</div>
-<div id="userSettings">
-    <a href="/settings" >Settings</a>
+﻿@inject NavigationManager MyNavigationManager
+
+<div id="heading">
+    <div id="logo">
+        <a href="/"> <img src="logo.png" /> </a>
+    </div>
+    <div id="navAndSettings">
+        <div id="navigation">
+            <select @bind="Page" autocomplete="off">
+                @for (int index = 0; index < Pages.Count; index++)
+                {
+                    @if (Pages[index].Equals(CurrentPage))
+                    {
+                        <option selected>
+                            @FixLinkTextFormat(Pages[index])
+                        </option>
+                    }
+                    else
+                    {
+                        <option>
+                            @FixLinkTextFormat(Pages[index])
+                        </option>
+                    }
+                }
+            </select>
+        </div>
+        <div id="userSettings">
+            <a href="/settings" >Settings</a>
+        </div>
+    </div>
 </div>
 <div id="horizontalLine">
-    <hr />
+  <hr />
 </div>
 
 @code {
+    [Parameter, EditorRequired] public string CurrentPage { get; set; }
+
+    public string Page
+    {
+        get
+        { return MyNavigationManager.Uri; }
+        set
+        {
+            Console.WriteLine("Blah");
+            MyNavigationManager.NavigateTo(value);
+        }
+    }
+
     List<string> Pages = new List<string>
         {
             "/index", "/counter", "/fetchdata"
@@ -26,12 +54,25 @@
 
     private string FixLinkTextFormat(string page)
     {
-        string newString = page.Replace('/', ' ');
-        return newString.Trim();
+        Console.WriteLine("input is " + page);
+        string newString = page.ToUpper();
+        Console.WriteLine("ToUpper is " + newString);
+        string newNewString = newString.Replace('/', ' ');
+        Console.WriteLine("Replaced is " + newNewString);
+        string newNewNewString = newNewString.Trim();
+        Console.WriteLine("Trimmed is " + newNewNewString);
+        Console.WriteLine("Current URL is " + MyNavigationManager.Uri);
+        Console.WriteLine("CurrentPage is " + CurrentPage);
+        Console.WriteLine("page parameter is " + page);
+        return newNewNewString;
     }
 
     private void NavSelection()
     {
-        
+        if (Page != MyNavigationManager.Uri)
+        {
+            MyNavigationManager.NavigateTo(Page);
+            Console.WriteLine("Blah");
+        }
     }
 }

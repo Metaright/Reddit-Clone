@@ -196,18 +196,18 @@
       "mscorlib.dll": "sha256-tlYWYAypJO+6gsCjV734iAJn8xcZYhUjM7vgxDLJluE=",
       "netstandard.dll": "sha256-E48Na3ZQWKExltzTwgP0Ao+UqWhiVYeerXfUL9lEc+c=",
       "System.Private.CoreLib.dll": "sha256-J85Z1XnwapHef31sR58JFq+0HrFP5BjOoObPKjdFHCw=",
-      "RedditClone.Shared.dll": "sha256-L5wFcUPtX8rrj8OXpMSL8TwqmBLfdZ8wLGMujeyjups=",
-      "RedditClone.Client.dll": "sha256-G1cfxmfqlDSmt\/8If\/2nT5k8U1ifATprbzvh\/SPFy+A="
+      "RedditClone.Shared.dll": "sha256-etfRwWN57eaRjO9Kpq\/\/\/00fVr1t1ROZqLd21HX7Qsk=",
+      "RedditClone.Client.dll": "sha256-3NTPmHFCAZwTJl5HSmOaJj\/GQXixuSCiP9BvEmEVEaE="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "RedditClone.Shared.pdb": "sha256-\/Bfd1142HSvoTAjrXFmlFPanTuwbtJTzUtLH5ZryVIc=",
-      "RedditClone.Client.pdb": "sha256-hDi7NUXSWj+oasmgxOHYOJi\/Fo0jSq+tPdBXLvuwdQ0="
+      "RedditClone.Shared.pdb": "sha256-2yR6xFgYrqf+2JccOm2EjdaCB2px4VOJxojBzXXOMt0=",
+      "RedditClone.Client.pdb": "sha256-6rffSgp9RGiJjWlW5ukt2KBhndjJK31mcZD0yG5whV8="
     },
     "runtime": {
-      "dotnet.6.0.0.u2j82n5oib.js": "sha256-LOq52qjRa3+zt3w4UL10rS3UdwHxVQxW0JAsMPO9QAM=",
+      "dotnet.6.0.0.01my2hag2k.js": "sha256-LOq52qjRa3+zt3w4UL10rS3UdwHxVQxW0JAsMPO9QAM=",
       "dotnet.timezones.blat": "sha256-MSlKZuLHfzsKLVF\/3omAUcZ57QL0puRif12PGTAXwDY=",
       "dotnet.wasm": "sha256-GuySSCXngMFRsFNXg0w0zohV31TNKJ+mSSGKRqubLbA=",
       "icudt.dat": "sha256-Zuq0dWAsBm6\/2lSOsz7+H9PvFaRn61KIXHMMwXDfvyE=",

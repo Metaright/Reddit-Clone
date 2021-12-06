@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d4490bde-d118-4f47-bfc6-31fcd37032a5": {
+      "ProjectGuid": "d4490bde-d118-4f47-bfc6-31fcd37032a5",
+      "DisplayName": "RedditClone.Client",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "b8022764-025f-486e-a226-de887545ea4f": {
+      "ProjectGuid": "b8022764-025f-486e-a226-de887545ea4f",
+      "DisplayName": "RedditClone.Server",
+      "ColorIndex": 1
+    },
+    "d5bc0210-9f25-4c27-92c9-81c595125219": {
+      "ProjectGuid": "d5bc0210-9f25-4c27-92c9-81c595125219",
+      "DisplayName": "RedditClone.Shared",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

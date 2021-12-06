@@ -1,4 +1,4 @@
-﻿<select @onselectionchange="">
+﻿<select @onselectionchange="@NavSelection">
         @for (int index = 0; index < Pages.Count; index++)
         {
             <option>
@@ -19,6 +19,6 @@
 
     private void NavSelection()
     {
-        
+        Console.WriteLine("yo");
     }
 }

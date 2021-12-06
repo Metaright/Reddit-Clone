@@ -1572,19 +1572,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\matthew_crawford\\.nuget\\packages\\": {}
+    "C:\\Users\\matth\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matthew_crawford\\source\\repos\\RedditClone\\RedditClone\\Client\\RedditClone.Client.csproj",
+      "projectUniqueName": "C:\\Users\\matth\\Documents\\GitHub\\Reddit-Clone\\RedditClone\\Client\\RedditClone.Client.csproj",
       "projectName": "RedditClone.Client",
-      "projectPath": "C:\\Users\\matthew_crawford\\source\\repos\\RedditClone\\RedditClone\\Client\\RedditClone.Client.csproj",
-      "packagesPath": "C:\\Users\\matthew_crawford\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matthew_crawford\\source\\repos\\RedditClone\\RedditClone\\Client\\obj\\",
+      "projectPath": "C:\\Users\\matth\\Documents\\GitHub\\Reddit-Clone\\RedditClone\\Client\\RedditClone.Client.csproj",
+      "packagesPath": "C:\\Users\\matth\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\matth\\Documents\\GitHub\\Reddit-Clone\\RedditClone\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\matthew_crawford\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\matth\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1598,8 +1598,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\matthew_crawford\\source\\repos\\RedditClone\\RedditClone\\Shared\\RedditClone.Shared.csproj": {
-              "projectPath": "C:\\Users\\matthew_crawford\\source\\repos\\RedditClone\\RedditClone\\Shared\\RedditClone.Shared.csproj"
+            "C:\\Users\\matth\\Documents\\GitHub\\Reddit-Clone\\RedditClone\\Shared\\RedditClone.Shared.csproj": {
+              "projectPath": "C:\\Users\\matth\\Documents\\GitHub\\Reddit-Clone\\RedditClone\\Shared\\RedditClone.Shared.csproj"
             }
           }
         }
